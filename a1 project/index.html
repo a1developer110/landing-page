@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="description"
+      content=" This website is all about Science, English, web development and
+    Tricks, Designs Principle, Source Code sales and Programming videos in
+    the English Language."
+    />
+    <meta name="author" content="Arshad Mukhtiar" />
+    <link rel="shortcut icon" type="image/webp" href="root academy.webp">
+    <title>Roots Academy Kamber </title>
+    <style>
+      @font-face {
+        font-family: a1;
+        src: url(./fonts/a1\(1\).otf) format("opentype");
+      }
+      @font-face {
+        font-family: b2;
+        src: url(./fonts/a1\ \(2\).otf) format(OpenType);
+      }
+      @font-face {
+        font-family: c3;
+        src: url(./fonts/a1\ \(3\).otf) format(OpenType);
+      }
+      @font-face {
+        font-family: d4;
+        src: url(./fonts/a1\ \(4\).otf) format(OpenType);
+      }
+      @font-face {
+        font-family: e5;
+        src: url(./fonts/a1\ \(5\).otf) format(OpenType);
+      }
+      @font-face {
+        font-family: f6;
+        src: url(./fonts/a1\ \(6\).otf) format(OpenType);
+      }
+      @font-face {
+        font-family: g7;
+        src: url(./fonts/a1\ \(7\).otf) format(TrueType);
+      }
+      @font-face {
+        font-family: h8;
+        src: url(./fonts/a1\ \(8\).otf) format(OpenType);
+      }
+      @font-face {
+        font-family: i9;
+        src: url(./fonts/a1\ \(9\).otf) format(TrueType);
+      }
+      @font-face {
+        font-family: j10;
+        src: url(./fonts/b1\ \(1\).otf) format(OpenType);
+      }
+      @font-face {
+        font-family: k11;
+        src: url(./fonts/b1\ \(2\).otf) format(OpenType);
+      }
+      @media screen and (min-width: 455px) and (max-width:600px) {
+        .NAVrow, .about-progress {
+          display: flex; flex-direction: column; width: 100px; height: 100px;}}
+        
+      @media screen and (min-width: 455px) and (max-width:600px) {
+        .service-gallery, .about-progress {
+          display: flex; flex-direction: column; width: auto; height: auto;}}
+
+          @media screen and (min-width: 600px) and (max-width:800px) {
+        .NAVrow, .about-progress {
+          display: flex; flex-direction: row; width: auto; height: auto;}}
+        
+      @media screen and (min-width: 600px) and (max-width:800px) {
+        .service-gallery, .about-progress {
+          display: flex; flex-direction: row; width: auto; height: auto;}}
+
+        
+      
+      * {
+        text-decoration: none;
+      }
+      html {
+        font-family: "jost", sans-serif;
+        background-color: #efefef;
+        scroll-behavior: smooth;
+      }
+      .logo {
+        display: flex; gap: 2%;
+        flex-basis: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .logor {
+        display: flex; border: 2px; margin-top: 40px;
+      }
+
+      h1 {
+        font-family: c3, sans-serif;
+        font-weight: bold;
+        font-size: 5rem;
+      }
+      .NAVrow {
+        font-family: k11,urbanist;
+        letter-spacing: 0.06;
+        line-height: 1.6;
+        font-size: 1.4rem;
+        list-style: none;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        display: flex;
+        gap: 15%;
+        transition: all;
+        background-image: linear-gradient(rgba(14, 224, 14, 0.719), rgba(230, 230, 20, 0.774));
+      }
+      .NAVrow:hover { background-color:rgb(255, 0, 0);
+      font-family: c3, sans-serif; }
+
+
+      /* start of drop menu */
+      .dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(29, 17, 17, 0.658);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  color: #f9faf9;
+  background-color: #00A4BD;
+}
+/* end of drop menu */
+
+    .hero {
+      display: flex; flex-wrap: wrap;
+    }
+      audio {
+        box-shadow: rgba(122, 122, 128, 0.329) 0px 7px 29px 0px;
+        border-radius: 25px;
+      }
+      
+      progress {
+        height: 2rem;
+        width: 25rem;
+      }
+
+      #about-section {
+        background-image: radial-gradient(azure, gray, pink);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-attachment: fixed;
+        opacity: 1;
+        
+      }
+
+      #course-section {
+        background-image:radial-gradient(azure, gray, pink);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-attachment: fixed;
+        
+      }
+
+
+        #Blogs {
+          background-image: linear-gradient(rgba(45, 45, 223, 0.63), rgba(33, 199, 33, 0.829), rgba(201, 37, 37, 0.671));
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-attachment: fixed;
+        opacity: 0.7;
+        
+        }
+
+        .blog-link-section {
+          font-family: sans-serif;
+        }
+
+    </style>
+  </head>
+  <body>
+    <!-- our header  -->
+    <header>
+      <div class="logo">
+        <a href="https://youtube.com/@rootsacademykamber2360?si=P-r_q3xt_MDWCUq3" tabindex="_blank">
+        <img class="logor" src="./root academy.webp" alt="Roots Academy Kamber logo"
+        style="border-radius: 50%"
+          width="100px" height ="100px"/> </a>
+           <h1>Roots Academy Kamber</h1>
+      </div>
+      <nav>
+        <ul class="NAVrow">
+          <li><a href="#hero-content"> Home</a></li>
+          <li><a href="#about-section"> About</a></li>
+           <li><div style="color:blue ;" class="dropdown">
+      Coureses
+  <div class="dropdown-content" style="width: 300px; height:140px;">
+  <a href="a">Web Development</a>
+  <a href="b">General Science</a>
+  <a href="c">English Grammar</a>
+  </div> </li>
+          <li><a href="#Blogs"> Blogs</a></li>
+          <li><a href="#contact"> Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- our main Hero section  -->
+    <main>
+      <div class="hero">
+        <figure>
+          <img id="he"
+            src="./hero.webp"
+            alt="hero section image of Roots Academy Kamber"
+            width="200px"
+            height="150px"
+          />
+          <h2>I am Arshad Mukhtiar</h2>
+        </figure>
+        <p style="padding-top: 5%;">
+          This website is all about Science, English, web development and
+    Tricks, Designs Principle, Source Code sales and Programming videos in
+    the English Language.
+        </p>
+      </div>
+      <center>
+        <a href="https://www.facebook.com/rootsacademykamber/?locale=en_GB" target="_blank">
+        <button>Facebook Page</button></a>
+        <a
+          href="https://youtube.com/@rootsacademykamber2360?si=P-r_q3xt_MDWCUq3"
+          target="_blank"
+        >
+          <button>Youtube channel</button></a> </center>
+      
+    </main>
+    <!-- about section  -->
+    <section id="about-section">
+      <h2> <center>About Roots Academy Kamber</center></h2>
+      <div class="about-content">
+        <p>It's great to meet you! I’m Arshad Mukhtiar Chemist and Web Developer.</p>
+        <p>
+          Roots Academy Kamber is an amazing YouTube channel for learning Science, English and web
+          development. Their tutorials are easy to follow and enjoyable. By
+          watching their videos, you can learn the skills needed for a Science, English and web
+          development job. Check out Roots Academy Kamber to boost your chances of
+          getting hired in these fields!
+        </p>
+        <p><strong> <center>My Knowledge</center></strong></p>
+        <div class="about-progress">
+          <label for="progress">Web Development: </label>
+          <progress id="web development" max="100" value="90">90% CODING</progress>
+        </div>
+
+        <div class="about-progress">
+          <label for="English">English Grammar:</label>
+          <progress id="English" value="90" max="100">90% English Grammar</progress>
+        </div>
+
+        <div class="about-progress">
+          <label for="SS">Science Subjects:</label>
+          <progress id="SS" value="90" max="100"> 90% Science Subjects</progress>
+        </div>
+    </section>
+    
+
+    <!-- our services section  -->
+    <section id="course-section">
+      <h2> <center>our Courses</center></h2>
+      <div class="service-gallery" style="display: flex">
+        <figure>
+          <img
+            src="Tenses.webp"
+            alt="Tenses Course"
+            width="200"
+            height="125"
+          />
+          <figcaption>A1 Tenses Course</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="English Grammar.webp"
+            alt="English Grammar Course"
+            width="200"
+            height="125"
+          />
+          <figcaption>A1 English Grammar Course</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="General Science.webp"
+            alt="Science Course"
+            width="200"
+            height="125"
+          />
+          <figcaption>A1 General Science Course</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="HTML.webp"
+            alt="HTML Course"
+            width="200"
+            height="125"
+          />
+          <figcaption>A1 HTML Course</figcaption>
+        </figure>
+
+        <figure>
+          <img src="3d Editing.webp" alt="Editing Course" width="200" height="125" />
+          <figcaption>A1 3D Editing Course</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <aside>
+      <h2>Latest videos</h2>
+      <iframe width="450" height="315" src="https://www.youtube.com/embed/xM6PXcFZZxE?si=NEh0dmWS-DZZlBYN" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe width="450" height="315" src="https://www.youtube.com/embed/baP9017M0L4?si=EqZSluI3GFswX_ZC" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    
+    </aside>
+
+    <!-- our blog section  -->
+    <section id="Blogs">
+      <h2>Our Blogs</h2>
+      <article>
+        <header>
+          <h2>Elevate Your Web Development Skills with Roots Academy Kamber</h2>
+        </header>
+        <p>
+          <strong> <em> Roots Academy Kamber </em> </strong> is an amazing YouTube
+          channel for learning web development. Their tutorials are easy to
+          follow and enjoyable. By watching their videos, you can learn the
+          skills needed for a web development job. Check out Roots Academy Kamber to
+          boost your chances of getting hired in this field!
+        </p>
+
+        <section>
+          <h3>About Roots Academy Kamber</h3>
+          <p>
+            Roots Academy Kamber is an amazing YouTube channel for learning web
+            development. Their tutorials are easy to follow and enjoyable. By
+            watching their videos, you can learn the skills needed for a web
+            development job. Check out Roots Academy Kamber to boost your chances of
+            getting hired in this field!
+          </p>
+        </section>
+
+        <section>
+          <h3>Unlock Your Potential with Easy-to-Follow Tutorials</h3>
+          <p>
+            Roots Academy Kamber understands that learning web development can be
+            daunting, especially for beginners. That's why their tutorials are
+            thoughtfully designed to be easy to follow, ensuring that even the
+            most complex concepts are broken down into manageable steps. Whether
+            you're a seasoned developer or just starting out, you'll find their
+            tutorials to be a breath of fresh air in the world of online
+            learning.
+          </p>
+        </section>
+        <section>
+          <h3>Enjoyable Learning Experience</h3>
+          <p>
+            Learning doesn't have to be a tedious process. Roots Academy Kamber has
+            seamlessly blended education with entertainment, making the learning
+            journey not only productive but enjoyable as well. Their engaging
+            teaching style and relatable examples make even the most challenging
+            topics seem approachable. You'll find yourself looking forward to
+            each new video, eager to absorb more knowledge.
+          </p>
+        </section>
+
+        <section>
+          <h3>Your Gateway to Web Development Success</h3>
+          <p>
+            Dreaming of a career in web development? Roots Academy Kamber equips you
+            with the skills that employers are looking for. From HTML and CSS to
+            JavaScript and beyond, their tutorials cover a wide range of
+            technologies and techniques that are essential in today's
+            competitive job market. By following their videos, you'll be
+            well-prepared to tackle real-world development challenges.
+          </p>
+        </section>
+
+        <section>
+          <h3>Boost Your Employability with Roots Academy Kamber</h3>
+          <p>
+            In the dynamic world of web development, staying ahead of the curve
+            is crucial. Roots Academy Kamber not only helps you stay current with the
+            latest industry trends but also provides you with practical skills
+            that can set you apart from the competition. Whether you're aiming
+            to switch careers or enhance your existing skills, Roots Academy Kamber
+            can be your key to unlocking new opportunities.
+          </p>
+
+          <p>
+            Don't miss out on the chance to enhance your web development skills
+            and open doors to exciting career prospects. Check out Thapa
+            Technical on YouTube today and take the first step towards a
+            brighter future in the world of web development!
+          </p>
+        </section>
+
+        <p>Thank You for reading till the end</p>
+      </article>
+    </section>
+
+    <!-- podcast section  -->
+    <section class="podcast-section">
+      <p style="background-color:cornflowerblue">
+        <em
+          >I have also added web development and General  Science podcast on my Roots Academy Kamber
+          website click on play button to play</em
+        >
+      </p>
+      <audio controls muted>
+        <source src="./Roots Academy.wav" type="audio/wav" />
+      </audio>
+    </section>
+
+    <!-- other article links sections  -->
+    <section class="blog-link-section">
+      <p>Hope you like my other blogs too.</p>
+      <ul>
+        <li>
+          <a
+            href="https://youtube.com/@rootsacademykamber2360?si=P-r_q3xt_MDWCUq3"
+            target="_blank"
+            >Please subscribe to Roots Academy Kamber youtube channel
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://youtube.com/@rootsacademykamber2360?si=P-r_q3xt_MDWCUq3"
+            target="_blank"
+          >
+            Please share our channel with your friends on all social networking
+            sites
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://youtube.com/@rootsacademykamber2360?si=P-r_q3xt_MDWCUq3"
+            target="_blank"
+            >Your positivity is contagious, and your smile has the power to
+            brighten anyone's day. Keep being the amazing person you are!
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://youtube.com/@rootsacademykamber2360?si=P-r_q3xt_MDWCUq3"
+            target="_blank"
+          >
+            Remember, every small step you take is a stride towards your dreams.
+            Keep going, because you're capable of achieving greatness!
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- contact us section  -->
+    <section id="contact">
+      <h2>Feel free to contact us</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28288.89415555286!2d67.98127585463543!3d27.590064215660068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3935028813faf1d1%3A0xcdbee43757a4a776!2sQambar%2C%20Qambar%20Shahdadkot%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1727751777350!5m2!1sen!2s"
+      width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <!-- form section  -->
+      <center><form>
+        <div>
+          <label for="username">Username</label>
+          <input type="text" id="username" />
+        </div>
+        <br />
+        <div>
+          <label for="email">Enter your email</label>
+          <input type="email" id="email" />
+        </div>
+        <br />
+        <div>
+          <label for="textarea">Message</label>
+          <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+        </div>
+        <br />
+        <input type="submit" value="submit" />
+      </form></center>
+    </section>
+
+    <br>
+    <br>
+    <!-- footer section  -->
+    <footer>
+      <p>
+        <center>Copyright &copy;2024 All rights reserved | by Roots Academy Kamber</center>
+      </p>
+    </footer>
+  </body>
+</html>
